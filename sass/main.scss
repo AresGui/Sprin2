@@ -3,9 +3,11 @@ $primary: #5265E1;
 $secondary: #FA5959;
 
 
+
 //import functions and variables
-@import "../node_modules/bootstrap/scss/_variables";
-@import "../node_modules/bootstrap/scss/_functions";
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+@import '../node_modules/bootstrap/scss/mixins';
 
 //import bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
