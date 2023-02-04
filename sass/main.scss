@@ -2,6 +2,36 @@
 $primary: #5265E1;
 $secondary: #FA5959;
 
+body > div {
+    margin: 100px 0;
+}
+
+#first-tab{
+    border-top: #e9ecef solid 1px;
+    font-weight: bold;
+}
+
+#first-text{
+    padding: 5px;
+    border-bottom: #FA5959 solid 3px;
+}
+
+@media screen and (min-width: 768px) {
+    #first-tab{
+        border-top: none;
+    }
+
+    #container-tabs{
+        max-width: 75%;
+    }
+   
+}
+
+
+.nav-item {
+    border-bottom: #e9ecef solid 1px;
+}
+
 .card {
     border: none;
     box-shadow: 5px 10px 18px #888888;
@@ -39,6 +69,21 @@ $secondary: #FA5959;
         width: 100% !important;
     }
 }
+
+.accordion-button:after {
+    background-image: url("../images/icon-arrow.svg") !important;
+}
+
+
+
+#accordion-top {
+    border-top: #e9ecef solid 1px;
+}
+
+#accordion-bottom {
+    border-bottom: #e9ecef solid 1px;
+}
+
 
 
 //import functions and variables
